@@ -1,0 +1,17 @@
+version: '3.8'
+name: vapay
+services: 
+  client:
+    build: './frontend'
+    image: vapay-client-image
+    container_name: va-pay-client
+    ports: 
+      - '4173:4173'
+
+  server:
+    build: './backend'
+    image: vapay-server-image
+    container_name: va-pay-server
+    ports:
+      - '3000:3000'
+    
