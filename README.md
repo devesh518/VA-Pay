@@ -30,13 +30,19 @@ To set up the project locally, follow these steps:
 1. Clone the repository:
 
    ```
-   git clone https://github.com/DevOpsTally/2023-05-29-VA-1.git
+   git clone https://github.com/devesh518/VA-Pay.git
    ```
 
 2. Install dependencies:
 
    ```
-   cd 2023-05-29-VA-1
+   cd VA-Pay
+   cd frontend
+   npm install
+
+   Do the same for backend
+   cd VA-Pay
+   cd backend
    npm install
    ```
 
@@ -44,6 +50,11 @@ To set up the project locally, follow these steps:
 
    ```
    npm start
+   ```
+
+4. Start the backend
+   ```
+   node app.js
    ```
 
 4. Access the application in your browser:
